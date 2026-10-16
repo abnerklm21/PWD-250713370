@@ -1,0 +1,30 @@
+body {
+    background-color: #e2e8f0;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 32px;
+}
+
+h1 {
+    color: #0f172a;
+    font-size: 2.2em;
+    margin-top: 0;
+}
+
+p {
+    color: #334155;
+    font-size: 1em;
+    text-align: center;
+}
+
+a {
+    display: block;
+    margin: 24px auto;
+    text-align: center;
+}
+
+img {
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    max-width: 100%;
+}
