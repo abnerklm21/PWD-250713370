@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran UKM</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h2>Formulir Pendaftaran Anggota Komunitas</h2>
+        <p class="deskripsi">Isi formulir berikut dengan data yang valid untuk keperluan seleksi anggota baru.</p>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <table class="tabel-form">
+                <tr>
+                    <td class="kolom-label">
+                        <label for="nama">Nama Lengkap</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nama" name="nama" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label">
+                        <label for="nim">NIM</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nim" name="nim" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label">
+                        <label for="prodi">Program Studi</label>
+                    </td>
+                    <td>
+                        <select id="prodi" name="prodi">
+                            <option value="Informatika">Informatika</option>
+                            <option value="Sistem Informasi">Sistem Informasi</option>
+                            <option value="Teknik Industri">Teknik Industri</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label">
+                        <label for="email">Email Mahasiswa</label>
+                    </td>
+                    <td>
+                        <input type="text" id="email" name="email" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label">
+                        <label for="telepon">Nomor WhatsApp</label>
+                    </td>
+                    <td>
+                        <input type="text" id="telepon" name="telepon" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label">Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" id="laki" name="jk" value="Laki-Laki" />
+                        <label for="laki">Laki-Laki</label>
+                        <input type="radio" id="perempuan" name="jk" value="Perempuan" />
+                        <label for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label">
+                        <label for="semester">Semester Saat Ini</label>
+                    </td>
+                    <td>
+                        <select id="semester" name="semester">
+                            <option value="Semester 1">Semester 1</option>
+                            <option value="Semester 2">Semester 2</option>
+                            <option value="Semester 3">Semester 3</option>
+                            <option value="Semester 4">Semester 4</option>
+                            <option value="Semester 5">Semester 5</option>
+                            <option value="Semester 6">Semester 6</option>
+                            <option value="Semester 7">Semester 7</option>
+                            <option value="Semester 8">Semester 8</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label">Pilihan Divisi</td>
+                    <td>
+                        <input type="radio" id="acara" name="divisi" value="Acara" />
+                        <label for="acara">Acara</label>
+                        <input type="radio" id="sdm" name="divisi" value="SDM" />
+                        <label for="sdm">SDM</label>
+                        <input type="radio" id="humas" name="divisi" value="Humas" />
+                        <label for="humas">Humas</label>
+                        <input type="radio" id="media" name="divisi" value="Media" />
+                        <label for="media">Media</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label" style="vertical-align: top;">Riwayat &amp; Skill</td>
+                    <td>
+                        <p class="grup-pilihan"><strong>Kegiatan yang Pernah Diikuti:</strong><br />
+                            <input type="checkbox" id="kepanitiaan" name="pengalaman" value="Kepanitiaan" />
+                            <label for="kepanitiaan">Kepanitiaan</label>
+                            <input type="checkbox" id="organisasi" name="pengalaman" value="Organisasi" />
+                            <label for="organisasi">Organisasi</label>
+                            <input type="checkbox" id="volunteer" name="pengalaman" value="Volunteer" />
+                            <label for="volunteer">Volunteer</label>
+                        </p>
+                        <p class="grup-pilihan"><strong>Kemampuan:</strong><br />
+                            <input type="checkbox" id="publicspeaking" name="kemampuan" value="Public Speaking" />
+                            <label for="publicspeaking">Public Speaking</label>
+                            <input type="checkbox" id="desain" name="kemampuan" value="Desain" />
+                            <label for="desain">Desain</label>
+                            <input type="checkbox" id="fotografi" name="kemampuan" value="Fotografi" />
+                            <label for="fotografi">Fotografi</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label" style="vertical-align: top;">
+                        <label for="alasan">Alasan Mendaftar</label>
+                    </td>
+                    <td>
+                        <textarea id="alasan" name="alasan" rows="6" cols="35"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom-label">
+                        <label for="cv">Upload CV (PDF)</label>
+                    </td>
+                    <td>
+                        <input type="file" id="cv" name="cv" accept="application/pdf" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="area-submit">
+                        <input type="submit" name="daftar" value="Kirim Pendaftaran" class="tombol-submit" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>

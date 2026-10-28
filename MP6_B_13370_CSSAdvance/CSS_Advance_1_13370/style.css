@@ -1,0 +1,86 @@
+body {
+    background-color: #eef2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.container {
+    width: 650px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 25px 30px;
+}
+
+h2 {
+    color: #0b4f8c;
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.deskripsi {
+    text-align: center;
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.tabel-form {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel-form td {
+    padding: 8px 6px;
+    font-size: 14px;
+}
+
+.kolom-label {
+    width: 30%;
+    font-weight: bold;
+    color: #444444;
+}
+
+input[type="text"], select, textarea {
+    width: 95%;
+    padding: 6px 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: #fafafa;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    border-color: #0b4f8c;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.grup-pilihan {
+    margin: 4px 0 10px 0;
+    line-height: 1.6;
+}
+
+.area-submit {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.tombol-submit {
+    background-color: #0b4f8c;
+    color: #ffffff;
+    border: none;
+    padding: 9px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tombol-submit:hover {
+    background-color: #083863;
+}
